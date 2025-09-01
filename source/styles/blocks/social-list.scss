@@ -6,12 +6,12 @@
   width: 28px;
   height: 22px;
   color: #666666;
-}
 
-.social-list__link svg:hover {
-  color: #68b738;
-}
+  &:hover {
+    color: #68b738;
+  }
 
-.social-list__link svg:active {
-  color: rgba(104, 183, 56, 0.3);
+  &:active {
+    color: rgba(104, 183, 56, 0.3);
+  }
 }

@@ -15,37 +15,40 @@
 
 <body class="page__body">
   <header class="main-header">
-    <div class="logo">
-      <a class="logo__link" href="index.html">
+    <div class="main-header__logo">
+      <a class="main-header__logo-link" href="index.html">
         <picture>
           <source media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="79" height="59" type="image/svg+xml">
           <source media="(min-width: 768px)" srcset="images/logo-tablet.svg" width="50" height="60" type="image/svg+xml">
-          <img class="logo__image" src="images/logo-mobile.svg" alt="Логотип магазина Cat Energy" width="33" height="38">
+          <img class="main-header__logo-image" src="images/logo-mobile.svg" alt="Логотип магазина Cat Energy" width="33" height="38">
         </picture>
         <picture>
           <source media="(min-width: 1440px)" srcset="images/logo-text.svg" width="118" height="21" type="image/svg+xml">
           <source media="(min-width: 768px)" srcset="images/logo-text.svg" width="110" height="18" type="image/svg+xml">
-          <img class="logo__text" src="images/logo-text.svg" width="101" height="18" alt="Текстовый логотип магазина Cat Energy">
+          <img class="main-header__logo-text" src="images/logo-text.svg" width="101" height="18" alt="Текстовый логотип магазина Cat Energy">
         </picture>
       </a>
-      <button class="logo__toggle" type="button">
+      <button class="main-header__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
     </div>
     <nav class="main-header__nav">
-      <ul class="main-header__nav-list">
-        <li class="main-header__nav-item">
-          <a class="main-header__nav-link" href="index.html">Главная</a>
-        </li>
-        <li class="main-header__nav-item">
-          <a class="main-header__nav-link" href="catalog.html">Каталог продукции</a>
-        </li>
-        <li class="main-header__nav-item">
-          <a class="main-header__nav-link" href="#">Подбор программы</a>
-        </li>
-      </ul>
+      <div class="main-header__nav-wrapper">
+        <ul class="main-header__nav-list">
+          <li class="main-header__nav-item">
+            <a class="main-header__nav-link" href="index.html">Главная</a>
+          </li>
+          <li class="main-header__nav-item">
+            <a class="main-header__nav-link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="main-header__nav-item">
+            <a class="main-header__nav-link" href="#">Подбор программы</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
+
 
   <main class="catalog">
     <h1 class="catalog__title">Каталог продукции</h1>
@@ -241,7 +244,7 @@
           </ul>
           <a class="product-card__button button" href="#">Заказать</a>
         </li>
-        <li class="catalog-goods__item main-goods__item product-promo">
+        <li class="catalog-goods__item product-promo">
           <h3 class="product-promo__title">Показать еще 100500 товаров</h3>
           <p class="product-promo__text">На самом деле вкусов гораздо больше!</p>
           <a class="product-promo__button button" href="#">Показать все</a>

@@ -1,8 +1,5 @@
-.cooperation{
-  &__wrapper {
-  }
-
-  &__title{
+.cooperation {
+  &__title {
     font-family: $secondary-font;
     font-size: 16px;
     line-height: 20px;
@@ -10,7 +7,7 @@
     text-transform: uppercase;
   }
 
-  &__address{
+  &__address {
     font-family: $primary-font;
     font-size: 14px;
     line-height: 20px;
@@ -20,8 +17,7 @@
   }
 }
 
-.social-media{
-
+.social-media {
   &__logo-link svg {
   width: 128px;
   height: 24px;
@@ -35,6 +31,4 @@
   &__logo-link svg:active {
     color: #6b6b6b;
   }
-
 }
-
