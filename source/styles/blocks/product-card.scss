@@ -1,0 +1,27 @@
+.product-card {
+  &__image-link {}
+  &__image {}
+  &__title-link {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  &__title {
+    font-family: $secondary-font;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $header-color-main;
+    text-transform: uppercase;
+  }
+
+  &__spec-list {
+  }
+  &__spec-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  &__spec-key {}
+  &__spec-value {}
+  &__button {}
+}
